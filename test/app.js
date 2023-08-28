@@ -4,7 +4,7 @@ const { MongoMemoryServer } = require('mongodb-memory-server');
 
 (async () => {
   const mongoServer = await MongoMemoryServer.create();
-  const mockMongoDBUri = await mongoServer.getUri(https://cloud.mongodb.com/v2/64ecbee41aa66461888b0b71#);
+  const mockMongoDBUri = "https://cloud.mongodb.com/v2/64ecbee41aa66461888b0b71#";
   process.env.MONGODB_URI = mockMongoDBUri;
 
   /* eslint-disable global-require */
